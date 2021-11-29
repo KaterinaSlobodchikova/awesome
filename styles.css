@@ -10,36 +10,43 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     padding: 15px 100px;
-    height: 7vh;
 }
 
 .nav-list {
-    display: inline-block;
-    margin-top: 5px;
-    vertical-align: top;
+    display: flex;
+    list-style: none;
 }
 
 .nav-list > li {
-    display: inline-block;
-    margin-right: 20px;
+    margin-right: 28px;
+    cursor: pointer;
+}
+
+.nav-wrapper {
+    display: flex;
+    align-items: center;
 }
 
 .logo {
-    display: inline-block;
-    margin: 0 360px 0 115px;
+    margin-left: 100px;
+    cursor: pointer;
+    margin-left: 20%;
 }
 
 .links {
-    display: inline-block;
+    margin-left: auto;
 }
 
 .links img {
-    margin-right: 20px;
+    margin-right: 30px;
+    cursor: pointer;
 }
 
 .main-page {
-    height: 93vh;
+    height: calc(100vh - 58px);
     background-color: #F0EFEB;
+    display: flex;
+    padding-left: 190px;
 }
 
 .guides {
@@ -50,16 +57,14 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 60px;
-    width: 600px;
-    padding-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .text {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 24px;
-    width: 600px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .button {
@@ -72,15 +77,18 @@
     font-weight: 400;
     font-size: 17px;
     border: none;
+    cursor: pointer;
 }
 
 .main-content-wrapper {
-    display: inline-block;
-    margin-left: 90px;
-    margin-top: 90px;
-    vertical-align: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 30%;
 }
 
 .main-image {
-    padding-left: 60px;
+    width: 599px; 
+    height: 521px;
+    align-self: center;
 }
